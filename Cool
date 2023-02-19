@@ -22,5 +22,26 @@ TradeTab:AddButton({
   	end    
 })
 
+local DupeTab = Window:MakeTab({
+	Name = "Dupe",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+  })
+  
+DupeTab:AddButton({
+	Name = "Start Dupe",
+	Callback = function()
+      		print("Dupe Starting Disabled!")
+})
+
+DupeTab:AddDropdown({
+	Name = "Select To Dupe",
+	Default = "Gems",
+	Options = {"Gems", "Pets"},
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
 end
 OrionLib:Init()
