@@ -5,6 +5,127 @@ local Window = OrionLib:MakeWindow({Name = "Space Scripts", HidePremium = false,
 
 
 
+
+
+-- space script
+local SpaceVisualTab = Window:MakeTab({
+	Name = "Space Pet Visual",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+
+local Section = SpaceVisualTab:AddSection({
+	Name = "Basic Pets!"
+})
+
+SpaceVisualTab:AddButton({
+	Name = "banana",
+	Callback = function()
+      		print("banana activated!")
+  	end    
+})
+
+local Section = SpaceVisualTab:AddSection({
+	Name = "Exclusives"
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Bladee",
+	Callback = function()
+      		print("Bladee activated!")
+  	end    
+})
+
+local Section = SpaceVisualTab:AddSection({
+	Name = "Titanics!"
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Titanic Jolly Cat",
+	Callback = function()
+      		print("Titanic Jolly Cat activated!")
+  	end    
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Titanic Balloon Monkey",
+	Callback = function()
+      		print("Titanic Balloon Monkey activated!")
+  	end    
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Titanic Neon Agony",
+	Callback = function()
+      		print("Titanic Neon Agony activated!")
+  	end    
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Titanic Blue Balloon Cat",
+	Callback = function()
+      		print("Titanic Blue Balloon Cat activated!")
+  	end    
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Titanic Red Balloon Cat",
+	Callback = function()
+      		print("Titanic Red Balloon Cat activated!")
+  	end    
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Titanic Hubert",
+	Callback = function()
+      		print("Titanic Hubert activated!")
+  	end    
+})
+
+local Section = SpaceVisualTab:AddSection({
+	Name = "Huges!"
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Huge Cat",
+	Callback = function()
+      		print("Huge Cat activated!")
+  	end    
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Huge Pegasus",
+	Callback = function()
+      		print("Huge Pegasus activated!")
+  	end    
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Huge Dog",
+	Callback = function()
+      		print("Huge Dog activated!")
+  	end    
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Huge Dragon",
+	Callback = function()
+      		print("Huge Dragon activated!")
+  	end    
+})
+
+SpaceVisualTab:AddButton({
+	Name = "Huge Love Lamb",
+	Callback = function()
+      		print("Huge Love Lamb activated!")
+  	end    
+})
+
+
+
+
+
+
+
 -- pet visual script
 local VisualTab = Window:MakeTab({
 	Name = "Pet Visual",
