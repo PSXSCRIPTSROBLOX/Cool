@@ -6,7 +6,7 @@ local TradeTab = Window:MakeTab({
 	Name = "Trade Scam",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
-  })
+})
   
   TradeTab:AddButton({
 	Name = "Enable Trade Scam!",
@@ -26,7 +26,7 @@ local DupeTab = Window:MakeTab({
 	Name = "Dupe",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
-  })
+})
   
 DupeTab:AddButton({
 	Name = "Start Dupe",
