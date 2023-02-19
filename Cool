@@ -22,4 +22,5 @@ TradeTab:AddButton({
   	end    
 })
 
+end
 OrionLib:Init()
