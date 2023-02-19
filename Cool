@@ -14,14 +14,5 @@ DupeTab:AddButton({
       		print("Dupe Starting Disabled!")
 })
 
-DupeTab:AddDropdown({
-	Name = "Select To Dupe",
-	Default = "Gems",
-	Options = {"Gems", "Pets"},
-	Callback = function(Value)
-		print(Value)
-	end    
-})
-
 end
 OrionLib:Init()
