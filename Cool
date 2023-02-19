@@ -1,0 +1,25 @@
+if game.PlaceId == 6284583030 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local TradeTab = Window:MakeTab({
+	Name = "Trade Scam",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+  })
+  
+  TradeTab:AddButton({
+	Name = "Enable Trade Scam!",
+	Callback = function()
+      		print("Trade scam activated!")
+  	end    
+})
+
+TradeTab:AddButton({
+	Name = "Disable Trade Scam!",
+	Callback = function()
+      		print("Trade scam Disabled!")
+  	end    
+})
+
+OrionLib:Init()
